@@ -17,7 +17,10 @@ java -jar TermResultCalculator.jar
 ``` 
 
 ## Special Permission
-**Username** & **Password** of a user (with **administrative privilege**) of MySQL will be required for creating a new MySQL user named **'trc'** for maintaining and modifying database for the application.
+**Username** & **Password** of a user (with **administrative privilege**) of MySQL will be required only in the first run for creating a new MySQL user named **'trc'** for maintaining and modifying database for the application.
+
+## Issues
+* Distorted text & label in User Interface on Ubuntu 13.10+ and Ubuntu based distribution, probably due to hard-coded font selection.
 
 ## History
 This Project was developed in between **March, 2013** to **October, 2013** as an academic project under the course " **Software Development Project - I** " taken by **Department of Computer Science & Engineering**, **Khulna University of Engineering and Technology**.
